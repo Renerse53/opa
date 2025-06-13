@@ -1,0 +1,60 @@
+body{
+background-image: url(photos/27230.jpg);
+width: 100%;
+}
+
+
+
+header{
+    background-color: rgb(255, 255, 255, 0.2);
+    width: auto;
+    height: 60px;
+    display: flex;
+    backdrop-filter: blur(20px);
+    justify-content: center;
+    align-items: center; 
+
+    border-radius: 30px;
+}
+
+.header__inner{
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+.logo{
+    font-size: 25px;
+    color: #fff;
+    padding: 10px;
+    margin-right: 1600px;
+    text-transform: uppercase;
+}
+
+a{
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: all .5s ease-in-out;
+    margin-left: 50px;
+}
+
+
+a:hover{
+    color: #faaf;
+}
+
+.ustal{
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-top: 50px;
+    background-color: rgb(146, 146, 146, 0.2);
+    padding: 50px;
+    border-radius: 100px;
+    text-align: center;
+}
